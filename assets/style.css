@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+}
+
+.container {
+    height: 600px;
+    width: 400px;
+    margin: auto;
+}
+
+.title {
+    margin-left: 70px;
+}
+
+.dashboard {
+    display: flex;
+}
+
+.dashboard__button {
+    flex: 50%;
+}
+
+.players {
+    flex: 50%;
+    height: 100px;
+}
+
+.starter {
+    margin: 0;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: gold;
+    padding: 10px;
+}
+
+.playingfield {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.field {
+    background-color: dodgerblue;
+    line-height: 100px;
+    height: 100px;
+    border: floralwhite solid 5px;
+    width: 100px;
+    text-align: center;
+    color: honeydew;
+    font-size: 3rem;
+}
+
+.disabled {
+    pointer-events: none;
+}

@@ -23,6 +23,12 @@ body {
 .players {
     flex: 50%;
     height: 100px;
+    font-size: 1.3rem;
+}
+
+.green {
+    color: green;
+    font-weight: bold;
 }
 
 .starter {
@@ -50,8 +56,4 @@ body {
     text-align: center;
     color: honeydew;
     font-size: 3rem;
-}
-
-.disabled {
-    pointer-events: none;
 }
